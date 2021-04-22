@@ -1,3 +1,5 @@
+#Vasilhs  Gewrgoulas
+#AM 2954
 
 import sys
 import math
@@ -170,34 +172,3 @@ bulk_load(rectangles)
 
 offset.close()
 coords.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
