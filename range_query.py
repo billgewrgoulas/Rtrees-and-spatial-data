@@ -1,3 +1,5 @@
+#Vasilhs  Gewrgoulas
+#AM 2954
 
 import ast
 
@@ -51,7 +53,3 @@ while query[0]:
 
 Rtree.close()
 queries.close()
-
-
-
-
