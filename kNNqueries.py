@@ -32,8 +32,7 @@ def kNN(root):
         el = heapq.heappop(queue)     #whenever we pop a leaf then we have our next min
         if el[3]:
             for item in tree[el[1]][2]:
-                d = dist(item[1])
-                heapq.heappush(queue, (d, item[0], tree[el[1]][1], tree[el[1]][0]))
+                heapq.heappush(queue, (dist(item[1]), item[0], tree[el[1]][1], tree[el[1]][0]))
         else:
             ids.append(str(el[1]))
             k += 1                            
@@ -63,6 +62,3 @@ while query[0]:
 Rtree.close()
 queries.close()
 knn.close()
-
-
-
